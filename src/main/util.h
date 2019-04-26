@@ -21,6 +21,8 @@
 //ascii string convert to 16 Hexadecimal string
 void char_array_2_hex_string(char* dest, char* source, int sourceLen);
 
+void hex_string_2_char_array(char* dst, char* src, int srcLen);
+
 /*将大写字母转换成小写字母*/
 int Tolower(int c);
 

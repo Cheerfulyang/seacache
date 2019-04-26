@@ -62,6 +62,12 @@ int dispatch_loop(__attribute__((unused)) void *arg){
 				lcore_id, port_id, queue_id);
 	}
 
+	//struct rte_mbuf *mymbuf;
+	//struct rte_mempool *pool = NULL;
+	
+	//pool = conf->pktmbuf_pool;
+	//mymbuf = rte_pktmbuf_alloc(pool);
+
 	while(1){
 
 		/* Read packet from RX queues */
@@ -72,6 +78,13 @@ int dispatch_loop(__attribute__((unused)) void *arg){
 
 		nb_rx    = rte_eth_rx_burst((uint8_t) port_id, queue_id, pkts_burst, MAX_PKT_BURST);
 		if (nb_rx == 0) { continue; }
+	
+		//rte_memcpy(mymbuf, *pkts_burst, sizeof(struct rte_mbuf));
+		//int nb_tx = rte_eth_tx_burst((uint8_t) port_id, queue_id, &mymbuf, nb_rx);
+		//DISPATCH_CORE_LOG("after sending, nb_tx is %d\n", nb_tx);
+		
+		//DISPATCH_CORE_LOG("nb_rx is %d, port id is %d, queue id is %d\n", nb_rx, port_id, queue_id);
+		
 			
 		for (i = 0; i < nb_rx; i++){
 
@@ -130,7 +143,7 @@ int dispatch_loop(__attribute__((unused)) void *arg){
 
 
 		if(seadp_hdr->seadp_packet_type == DATA_SIGN){
-			conf->stats.data_recv += 1;
+                        conf->stats.data_recv += 1;
 			pkts_burst[i]->ol_flags = TYPE_DATA;
 			worker_id = (htoi(src_eid_short_array)%NUM_OF_WORKER_CORE)+2;
                         RTE_LOG(DEBUG, EAL, "worker id is %d\n", worker_id);

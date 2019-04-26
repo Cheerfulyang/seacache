@@ -62,6 +62,7 @@
 #include "util.h"
 #include "dispatch_core.h"
 #include "writer_core.h"
+#include "tx_action.h"
 
 #define MAIN_LOG(...) printf("[MAIN]: " __VA_ARGS__)
 
@@ -324,12 +325,12 @@ main(int argc, char *argv[])
         
 
 		if (lcore_id == TX_LCORE_FIRST || lcore_id == TX_LCORE_SECOND){			                        
-			//printf("[LCORE_%u] Started\n", lcore_id);
-            //            ret = rte_eal_remote_launch(tx_process_loop,
-			//		NULL, lcore_id);
-			//if (ret < 0){
-			//	rte_exit(EXIT_FAILURE, "TX lcore %u busy \n", lcore_id);
-			//}
+			printf("[LCORE_%u] Started\n", lcore_id);
+                        ret = rte_eal_remote_launch(tx_process_loop,
+					NULL, lcore_id);
+			if (ret < 0){
+				rte_exit(EXIT_FAILURE, "TX lcore %u busy \n", lcore_id);
+			}
 			continue;
 		}
 

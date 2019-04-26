@@ -26,6 +26,8 @@ SRCS-y += $(SRC_MAIN_DIR)/Data_plane.c
 SRCS-y += $(SRC_MAIN_DIR)/dispatch_core.c 
 SRCS-y += $(SRC_MAIN_DIR)/writer_core.c 
 SRCS-y += $(SRC_MAIN_DIR)/cs_two.c 
+SRCS-y += $(SRC_MAIN_DIR)/tx_action.c 
+SRCS-y += $(SRC_MAIN_DIR)/sender.c 
 
 # Here for the -I option (which locates headers) I need absolute path
 CFLAGS += -O3 -I$(SRCDIR)/$(SRC_MAIN_DIR) 

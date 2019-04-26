@@ -11,6 +11,7 @@
 #include "Defaults.h"
 #include "init.h"
 #include "seanet_packet.h"
+#include "cs_two.h"
 
 extern struct app_global_config app_conf;
 extern struct app_lcore_params lcore_conf[APP_MAX_LCORES];

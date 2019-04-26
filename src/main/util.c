@@ -47,6 +47,29 @@ void char_array_2_hex_string(char* dest, char* source, int sourceLen)
     return;
 }
 
+void hex_string_2_char_array(char* dst, char* src, int srcLen){
+
+	int i;    
+	char highByte, lowByte;
+	for(i = 0; i < srcLen/2; i++){
+	 	highByte = src[i*2];
+	 	lowByte = src[i*2+1];
+		highByte -= 0x30;
+		if (highByte > 0x09){
+			highByte -= 0x07;
+		}
+		highByte = highByte << 4;
+
+		lowByte -= 0x30;
+		if(lowByte > 0x09){
+			lowByte -= 0x07;
+		} 
+		
+		dst[i] = highByte|lowByte;
+	}
+	return;
+}
+
 /*将大写字母转换成小写字母*/
 int Tolower(int c)
 {

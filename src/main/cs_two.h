@@ -95,7 +95,9 @@ int8_t cs_two_insert_with_hash( struct rte_mempool *shm_message_pool, struct rte
 uint8_t cs_two_lookup_with_hash(struct rte_mempool *shm_message_pool,
                                 struct rte_ring *send_ring_to_tx, 
                                 struct rte_ring *worker_to_write_ring, 
-                                cs_two_t *cs, char *eid);                                          
+                                cs_two_t *cs,
+																char *eid,
+																struct rte_mbuf   *mbuf);                                          
 
 
 #endif /* _CS_TWO_H_ */

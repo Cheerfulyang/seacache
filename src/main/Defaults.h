@@ -7,7 +7,8 @@
 #ifndef _DEFAULTS_H_
 #define _DEFAULTS_H_
 
-
+#include <inttypes.h>
+#include <rte_mbuf.h>
 /**
  * @file
  *
@@ -143,6 +144,7 @@
 #define SEANET_DEFAULT_PROTOCOL 0x0099 /**< SEANET Protocol. */
 
 /******************* assemble data structure ***************************/
+#define ETH_HEAD_LEN    14
 #define IP_HEAD_LEN 	20
 #define ID_HEAD_LEN	    44
 #define SEADP_HEAD_LEN 	20
@@ -151,14 +153,15 @@
 
 #define FILESYSTEM_PATH_NAME "/data"
 #define REQUEST_IO_WRITE	1
-#define REQUEST_IO_READ	    2
+#define REQUEST_IO_READ	        2
 #define NOTIFY_IO_WRITE_FINISH	3
 #define NOTIFY_IO_READ_FINISH	4
 #define NOTIFY_IO_WRITE_FAIL  	5
 #define NOTIFY_IO_READ_FAIL 	6
 
+ #define REQUEST_REGISTER	7
+ #define REQUEST_CANCEL		8
 
-/******************* Other important data structure ***************************/
 
 /**
  * Create ring and memory pool to transfer message between pkt fwd core and SSD IO core
@@ -175,12 +178,15 @@
 #define BITMAP_WORD                    8
 #define BITMAP_BYTE_LEN   207
 
-struct chunk_msg_desc {
-        uint8_t  io_type;
-        char     chunk_eid[41];
-        uint8_t  chunk[SIZE_OF_ONE_CHUNK];
-};
 
+
+struct chunk_msg_desc {
+	uint8_t 	io_type;
+	char 		chunk_eid[41];
+	char 		chunk[SIZE_OF_ONE_CHUNK];
+	uint32_t	chunk_size;
+	struct rte_mbuf mbuf;
+};
 
 struct notify_desc{
         uint8_t  io_type;  

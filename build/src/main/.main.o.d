@@ -1,5 +1,4 @@
-main.o: \
- /home/dsp/dpdk-2.0.0/examples/seanet_cache_system_v3.1/src/main/main.c \
+main.o: /home/myshare/seanet_cache_system_v3.2_zicco/src/main/main.c \
  /usr/include/stdc-predef.h \
  /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/rte_config.h \
  /usr/include/stdio.h /usr/include/features.h /usr/include/sys/cdefs.h \
@@ -90,7 +89,7 @@ main.o: \
  /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/rte_cycles.h \
  /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/generic/rte_cycles.h \
  /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/rte_malloc.h \
- /home/dsp/dpdk-2.0.0/examples/seanet_cache_system_v3.1/src/main/init.h \
+ /home/myshare/seanet_cache_system_v3.2_zicco/src/main/init.h \
  /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/rte_ether.h \
  /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/rte_ip.h \
  /usr/include/netinet/in.h /usr/include/sys/socket.h \
@@ -102,10 +101,11 @@ main.o: \
  /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/rte_hash_crc.h \
  /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/rte_cpuflags.h \
  /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/generic/rte_cpuflags.h \
- /home/dsp/dpdk-2.0.0/examples/seanet_cache_system_v3.1/src/main/Defaults.h \
- /home/dsp/dpdk-2.0.0/examples/seanet_cache_system_v3.1/src/main/cs_two.h \
- /home/dsp/dpdk-2.0.0/examples/seanet_cache_system_v3.1/src/main/Data_plane.h \
- /home/dsp/dpdk-2.0.0/examples/seanet_cache_system_v3.1/src/main/seanet_packet.h \
- /home/dsp/dpdk-2.0.0/examples/seanet_cache_system_v3.1/src/main/util.h \
- /home/dsp/dpdk-2.0.0/examples/seanet_cache_system_v3.1/src/main/dispatch_core.h \
- /home/dsp/dpdk-2.0.0/examples/seanet_cache_system_v3.1/src/main/writer_core.h
+ /home/myshare/seanet_cache_system_v3.2_zicco/src/main/Defaults.h \
+ /home/myshare/seanet_cache_system_v3.2_zicco/src/main/cs_two.h \
+ /home/myshare/seanet_cache_system_v3.2_zicco/src/main/Data_plane.h \
+ /home/myshare/seanet_cache_system_v3.2_zicco/src/main/seanet_packet.h \
+ /home/myshare/seanet_cache_system_v3.2_zicco/src/main/util.h \
+ /home/myshare/seanet_cache_system_v3.2_zicco/src/main/dispatch_core.h \
+ /home/myshare/seanet_cache_system_v3.2_zicco/src/main/writer_core.h \
+ /home/myshare/seanet_cache_system_v3.2_zicco/src/main/tx_action.h

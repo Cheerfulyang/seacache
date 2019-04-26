@@ -1,0 +1,308 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+APP_MAX_ETH_PORTS	.\src\main\Defaults.h	49;"	d
+APP_MAX_LCORES	.\src\main\Defaults.h	42;"	d
+APP_MAX_SOCKETS	.\src\main\Defaults.h	43;"	d
+BITMAP_BYTE_LEN	.\src\main\Defaults.h	179;"	d
+BITMAP_MASK	.\src\main\util.h	18;"	d
+BITMAP_SHIFT	.\src\main\util.h	17;"	d
+BITMAP_WORD	.\src\main\Defaults.h	178;"	d
+BUCKET_NUM_OF_HASH_TABLE	.\src\main\Defaults.h	127;"	d
+BURST_TX_DRAIN_US	.\src\main\Defaults.h	138;"	d
+Bitmap_info	.\src\main\cs_two.h	/^struct Bitmap_info{$/;"	s
+CACHE_HIT_ON_DRAM	.\src\main\cs_two.h	23;"	d
+CACHE_HIT_ON_FISK	.\src\main\cs_two.h	22;"	d
+CACHE_NO_HIT	.\src\main\cs_two.h	21;"	d
+CHUNK_STORE_IN_BOTH	.\src\main\cs_two.h	16;"	d
+CHUNK_STORE_IN_DRAM	.\src\main\cs_two.h	14;"	d
+CHUNK_STORE_IN_FISK	.\src\main\cs_two.h	15;"	d
+CHUNK_TLEN	.\src\main\sender.c	20;"	d	file:
+COMPLETE	.\src\main\cs_two.h	19;"	d
+CS_TWO_LOG	.\src\main\cs_two.c	24;"	d	file:
+CS_TWO_WARN	.\src\main\cs_two.c	26;"	d	file:
+DATA_PLANE_LOG	.\src\main\Data_plane.c	17;"	d	file:
+DATA_PLANE_WARN	.\src\main\Data_plane.c	18;"	d	file:
+DATA_SIGN	.\src\main\Defaults.h	98;"	d
+DEBUG	.\src\main\main.c	70;"	d	file:
+DISK_CACHE_CHUNK_CAPABILITY	.\src\main\Defaults.h	124;"	d
+DISPATCH_CORE_LOG	.\src\main\dispatch_core.c	18;"	d	file:
+DISPATCH_LCORE	.\src\main\Defaults.h	26;"	d
+DRAM_LRU_QUEUE_SIZE_PER_CORE	.\src\main\Defaults.h	119;"	d
+EID_LEN	.\src\main\Defaults.h	130;"	d
+EID_LEN_HEX	.\src\main\Defaults.h	129;"	d
+ENTRY_NUM_OF_ONE_BUCKET	.\src\main\Defaults.h	118;"	d
+ETHER_TYPE_IPv4_BE	.\src\main\Defaults.h	141;"	d
+ETHER_TYPE_IPv4_BE	.\src\main\Defaults.h	97;"	d
+ETHER_TYPE_IPv6_BE	.\src\main\Defaults.h	142;"	d
+ETH_HEAD_LEN	.\src\main\Defaults.h	147;"	d
+EXTEND_FACTOR_OF_HASH_TABLE	.\src\main\Defaults.h	121;"	d
+FILESYSTEM_PATH_NAME	.\src\main\Defaults.h	154;"	d
+ID_HEAD_LEN	.\src\main\Defaults.h	149;"	d
+INIT_LOG	.\src\main\init.c	30;"	d	file:
+IP_HDR_LEN	.\src\main\sender.c	11;"	d	file:
+IP_HEAD_LEN	.\src\main\Defaults.h	148;"	d
+LOG_DEBUG	.\src\main\main.c	78;"	d	file:
+LOG_DEBUG	.\src\main\main.c	83;"	d	file:
+LOG_LEVEL	.\src\main\main.c	77;"	d	file:
+LOG_LEVEL	.\src\main\main.c	82;"	d	file:
+MAIN_LOG	.\src\main\main.c	67;"	d	file:
+MASTER_LCORE	.\src\main\Defaults.h	25;"	d
+MAX_PKT_BURST	.\src\main\Defaults.h	115;"	d
+MBUF_SIZE	.\src\main\Defaults.h	88;"	d
+MEMPOOL_CACHE_SIZE	.\src\main\Defaults.h	77;"	d
+NB_MBUF	.\src\main\Defaults.h	92;"	d
+NB_PORT_OF_H2C	.\src\main\Defaults.h	51;"	d
+NOTIFY_IO_READ_FAIL	.\src\main\Defaults.h	160;"	d
+NOTIFY_IO_READ_FINISH	.\src\main\Defaults.h	158;"	d
+NOTIFY_IO_WRITE_FAIL	.\src\main\Defaults.h	159;"	d
+NOTIFY_IO_WRITE_FINISH	.\src\main\Defaults.h	157;"	d
+NOT_COMPLETE	.\src\main\cs_two.h	18;"	d
+NUM_OF_WORKER_CORE	.\src\main\Defaults.h	35;"	d
+NUM_OF_WRITE_CORE	.\src\main\Defaults.h	36;"	d
+PACKET_PAYLOAD_LEN	.\src\main\util.h	16;"	d
+PAYLOAD_LEN	.\src\main\sender.c	9;"	d	file:
+PRIMARY_FOLDER_NUM	.\src\main\writer_core.h	13;"	d
+Port_send_burst	.\src\main\sender.c	/^int Port_send_burst(struct mbuf_table *tx_mbuf, unsigned n, uint8_t port, uint16_t queue_id)$/;"	f
+REQUEST_CANCEL	.\src\main\Defaults.h	163;"	d
+REQUEST_IO_READ	.\src\main\Defaults.h	156;"	d
+REQUEST_IO_WRITE	.\src\main\Defaults.h	155;"	d
+REQUEST_REGISTER	.\src\main\Defaults.h	162;"	d
+REQ_SIGH	.\src\main\Defaults.h	99;"	d
+RING_CHUNK_NOTIFY_SHEDULE_SIZE	.\src\main\Defaults.h	172;"	d
+RING_DISPATCH_2_WORKER_SIZE	.\src\main\Defaults.h	171;"	d
+RING_PACKET_IN_SIZE	.\src\main\Defaults.h	173;"	d
+RTE_LOGTYPE_DISTRAPP	.\src\main\main.c	86;"	d	file:
+RTE_TEST_RX_DESC_DEFAULT	.\src\main\init.h	41;"	d
+RTE_TEST_TX_DESC_DEFAULT	.\src\main\init.h	42;"	d
+RX_HTHRESH	.\src\main\Defaults.h	62;"	d
+RX_PTHRESH	.\src\main\Defaults.h	61;"	d
+RX_WTHRESH	.\src\main\Defaults.h	63;"	d
+SCHEDULE_MEMPOOL_CACHE_SIZE	.\src\main\Defaults.h	176;"	d
+SCHEDULE_MEMPOOL_ELEMENT_SIZE	.\src\main\Defaults.h	202;"	d
+SCHEDULE_MEMPOOL_NAME	.\src\main\init.h	56;"	d
+SCHEDULE_MEMPOOL_NAME_FLAG	.\src\main\init.h	65;"	d
+SCHEDULE_MEMPOOL_SIZE	.\src\main\Defaults.h	175;"	d
+SEADP_H	.\src\main\sender.c	17;"	d	file:
+SEADP_HDR_LEN	.\src\main\sender.c	13;"	d	file:
+SEADP_HEAD_LEN	.\src\main\Defaults.h	150;"	d
+SEADP_PROT	.\src\main\Defaults.h	103;"	d
+SEANET_DEFAULT_PROTOCOL	.\src\main\Defaults.h	144;"	d
+SEANET_HDR_LEN	.\src\main\sender.c	12;"	d	file:
+SEANET_PROT	.\src\main\Defaults.h	102;"	d
+SECONDARY_FOLDER_NUM	.\src\main\writer_core.h	14;"	d
+SIP	.\src\main\sender.c	19;"	d	file:
+SIZE_OF_ONE_CHUNK	.\src\main\Defaults.h	110;"	d
+SSD_HDD_CACHE_SIZE	.\src\main\Defaults.h	122;"	d
+TX_2_WORKER_RECV_RING_NAME	.\src\main\init.h	54;"	d
+TX_2_WORKER_RECV_RING_NAME_FLAG	.\src\main\init.h	63;"	d
+TX_2_WRITE_RECV_RING_NAME	.\src\main\init.h	53;"	d
+TX_2_WRITE_RECV_RING_NAME_FLAG	.\src\main\init.h	62;"	d
+TX_HTHRESH	.\src\main\Defaults.h	71;"	d
+TX_LCORE_FIRST	.\src\main\Defaults.h	27;"	d
+TX_LCORE_SECOND	.\src\main\Defaults.h	28;"	d
+TX_LOG	.\src\main\tx_action.c	30;"	d	file:
+TX_PTHRESH	.\src\main\Defaults.h	70;"	d
+TX_WARN	.\src\main\tx_action.c	31;"	d	file:
+TX_WTHRESH	.\src\main\Defaults.h	72;"	d
+TYPE_DATA	.\src\main\Defaults.h	100;"	d
+TYPE_REQ	.\src\main\Defaults.h	101;"	d
+Tolower	.\src\main\util.c	/^int Tolower(int c)$/;"	f
+V4_HEADER_LEN	.\src\main\sender.c	8;"	d	file:
+WORKER_2_DISPATCH_RECV_RING_NAME	.\src\main\init.h	49;"	d
+WORKER_2_DISPATCH_RECV_RING_NAME_FLAG	.\src\main\init.h	58;"	d
+WORKER_2_TX_SEND_RING_NAME	.\src\main\init.h	50;"	d
+WORKER_2_TX_SEND_RING_NAME_FLAG	.\src\main\init.h	59;"	d
+WRITE_2_WORKER_RECV_RING_NAME	.\src\main\init.h	52;"	d
+WRITE_2_WORKER_RECV_RING_NAME_FLAG	.\src\main\init.h	61;"	d
+WRITE_2_WORKER_SEND_RING_NAME	.\src\main\init.h	51;"	d
+WRITE_2_WORKER_SEND_RING_NAME_FLAG	.\src\main\init.h	60;"	d
+WRITE_CORE_MANAGE_CHUNK_NUM	.\src\main\Defaults.h	126;"	d
+WRITE_LOG	.\src\main\writer_core.c	20;"	d	file:
+WRITE_WARN	.\src\main\writer_core.c	21;"	d	file:
+_CS_TWO_H_	.\src\main\cs_two.h	9;"	d
+_DATA_PLANE_H_	.\src\main\Data_plane.h	2;"	d
+_DEFAULTS_H_	.\src\main\Defaults.h	8;"	d
+_DISPATCH_CORE_H_	.\src\main\dispatch_core.h	2;"	d
+_INIT_H_	.\src\main\init.h	9;"	d
+_SEANET_PACKET_PRASE_H_	.\src\main\seanet_packet.h	2;"	d
+_SENDER_H_	.\src\main\sender.h	2;"	d
+_TX_ACTION_H_	.\src\main\tx_action.h	2;"	d
+_UTIL_H_	.\src\main\util.h	2;"	d
+_WRITER_CORE_H_	.\src\main\writer_core.h	6;"	d
+__cs_two_insert_with_hash	.\src\main\cs_two.c	/^static inline int8_t __cs_two_insert_with_hash(struct rte_mempool *shm_message_pool, struct rte_ring *shm_ring_queue,$/;"	f	file:
+__cs_two_lookup_with_hash	.\src\main\cs_two.c	/^static inline uint8_t __cs_two_lookup_with_hash(struct rte_mempool *shm_message_pool,$/;"	f	file:
+__rte_cache_aligned	.\src\main\cs_two.h	/^  } __attribute__((__packed__)) __rte_cache_aligned ;$/;"	v	typeref:struct:cs_two
+__rte_cache_aligned	.\src\main\cs_two.h	/^}  __attribute__((__packed__)) __rte_cache_aligned;$/;"	v	typeref:struct:cs_two_htbl_bucket
+__rte_cache_aligned	.\src\main\cs_two.h	/^} __attribute__((__packed__)) __rte_cache_aligned;$/;"	v	typeref:struct:cs_dram_queue
+__rte_cache_aligned	.\src\main\cs_two.h	/^}__attribute__((__packed__)) __rte_cache_aligned;$/;"	v	typeref:struct:chunk_assemble_info
+__rte_cache_aligned	.\src\main\init.h	/^} __rte_cache_aligned;$/;"	v	typeref:struct:lcore_rx_queue
+__rte_cache_aligned	.\src\main\init.h	/^}__attribute__((__packed__)) __rte_cache_aligned;$/;"	v	typeref:struct:app_global_config
+__rte_cache_aligned	.\src\main\init.h	/^}__attribute__((__packed__)) __rte_cache_aligned;$/;"	v	typeref:struct:stats
+__rte_cache_aligned	.\src\main\main.c	/^	} rx __rte_cache_aligned;$/;"	m	struct:app_stats	typeref:struct:app_stats::__anon1	file:
+__rte_cache_aligned	.\src\main\main.c	/^	} tx __rte_cache_aligned;$/;"	m	struct:app_stats	typeref:struct:app_stats::__anon2	file:
+app_conf	.\src\main\main.c	/^struct app_global_config app_conf;$/;"	v	typeref:struct:app_global_config
+app_global_config	.\src\main\init.h	/^struct app_global_config {$/;"	s
+app_lcore_params	.\src\main\init.h	/^struct app_lcore_params {$/;"	s
+app_stats	.\src\main\main.c	/^static volatile struct app_stats {$/;"	s	file:
+app_stats	.\src\main\main.c	/^} app_stats;$/;"	v	typeref:struct:app_stats	file:
+assemble_flag	.\src\main\cs_two.h	/^	uint8_t  assemble_flag;$/;"	m	struct:cs_two_htbl_entry
+bitmap	.\src\main\cs_two.h	/^     uint8_t  bitmap[BITMAP_BYTE_LEN];$/;"	m	struct:Bitmap_info
+bitmap_is_full	.\src\main\util.c	/^int bitmap_is_full(struct Bitmap_info *bitmap_info)$/;"	f
+bucket	.\src\main\cs_two.h	/^	uint32_t bucket;			              \/**< bucket in the hash table *\/$/;"	m	struct:cs_dram_queue
+busy	.\src\main\cs_two.h	/^	uint8_t  busy;$/;"	m	struct:cs_two_htbl_entry
+cal_packet_num_of_chunk	.\src\main\util.c	/^uint16_t cal_packet_num_of_chunk(uint32_t chunk_total_len)$/;"	f
+char_array_2_hex_string	.\src\main\util.c	/^void char_array_2_hex_string(char* dest, char* source, int sourceLen)$/;"	f
+check_bitmap_from_offset	.\src\main\util.c	/^int check_bitmap_from_offset(uint32_t offset, struct Bitmap_info *bitmap_info)$/;"	f
+check_link_status	.\src\main\sender.c	/^int check_link_status(uint16_t nb_ports)$/;"	f
+checksum	.\src\main\sender.c	/^unsigned short checksum(unsigned short *buffer, long size)$/;"	f
+chunk	.\src\main\Defaults.h	/^	char 		chunk[SIZE_OF_ONE_CHUNK];$/;"	m	struct:chunk_msg_desc
+chunk_assemble_info	.\src\main\cs_two.h	/^struct chunk_assemble_info   \/\/Size 30 bytes 64 bytes = 1 cache line$/;"	s
+chunk_eid	.\src\main\Defaults.h	/^	char 		chunk_eid[41];$/;"	m	struct:chunk_msg_desc
+chunk_eid	.\src\main\Defaults.h	/^        char    chunk_eid[41];$/;"	m	struct:notify_desc
+chunk_eid	.\src\main\cs_two.h	/^	char     chunk_eid[EID_LEN_HEX+1];		                  \/**< chunk eid value *\/$/;"	m	struct:chunk_assemble_info
+chunk_info	.\src\main\cs_two.h	/^    struct   chunk_assemble_info *chunk_info;$/;"	m	struct:cs_two_htbl_entry	typeref:struct:cs_two_htbl_entry::chunk_assemble_info
+chunk_msg_desc	.\src\main\Defaults.h	/^struct chunk_msg_desc {$/;"	s
+chunk_sender	.\src\main\sender.c	/^int chunk_sender(struct chunk_msg_desc *chunk, struct mbuf_table *tx_mbuf, struct app_lcore_params *conf, uint16_t queue_id)$/;"	f
+chunk_size	.\src\main\Defaults.h	/^	uint32_t	chunk_size;$/;"	m	struct:chunk_msg_desc
+copy_packet_to_dram_buffer	.\src\main\cs_two.c	/^static inline int copy_packet_to_dram_buffer(struct cs_two *cs,$/;"	f	file:
+cs_dram_queue	.\src\main\cs_two.h	/^struct cs_dram_queue  {          \/\/ Size: 64 bytes = 1 cache line$/;"	s
+cs_two	.\src\main\cs_two.h	/^struct cs_two {               \/\/ Size: 64 bytes = 1 cache line$/;"	s
+cs_two	.\src\main\init.h	/^	cs_two_t * cs_two; $/;"	m	struct:app_lcore_params
+cs_two_create	.\src\main\cs_two.c	/^struct cs_two *cs_two_create(uint32_t hash_table_num_buckets, uint32_t dram_queue_max_element,$/;"	f
+cs_two_htbl_bucket	.\src\main\cs_two.h	/^struct cs_two_htbl_bucket {	   \/\/ Size: 64 bytes = 1 cache line$/;"	s
+cs_two_htbl_entry	.\src\main\cs_two.h	/^struct cs_two_htbl_entry {		\/\/ Size: 13 bytes   index table$/;"	s
+cs_two_insert_with_hash	.\src\main\cs_two.c	/^int8_t cs_two_insert_with_hash(struct rte_mempool *shm_message_pool, struct rte_ring *shm_ring_queue,$/;"	f
+cs_two_lookup_with_hash	.\src\main\cs_two.c	/^uint8_t cs_two_lookup_with_hash(struct rte_mempool *shm_message_pool,$/;"	f
+cs_two_t	.\src\main\cs_two.h	/^typedef struct cs_two  cs_two_t;$/;"	t	typeref:struct:cs_two
+data_recv	.\src\main\init.h	/^	uint32_t data_recv; \/**< number of Data received *\/$/;"	m	struct:stats
+data_sent	.\src\main\init.h	/^	uint32_t data_sent;$/;"	m	struct:stats
+dequeue_pkts	.\src\main\main.c	/^		uint64_t dequeue_pkts;$/;"	m	struct:app_stats::__anon2	file:
+dispatch_loop	.\src\main\dispatch_core.c	/^int dispatch_loop(__attribute__((unused)) void *arg){$/;"	f
+dram_bitmap	.\src\main\cs_two.h	/^	struct   Bitmap_info *dram_bitmap;          \/**< packets stored in the DRAM map*\/	$/;"	m	struct:chunk_assemble_info	typeref:struct:chunk_assemble_info::Bitmap_info
+dram_flag	.\src\main\cs_two.h	/^	uint8_t  dram_flag;	\/**< indicate whether the entire chunk is stored in the DRAM*\/$/;"	m	struct:cs_two_htbl_entry
+dram_index	.\src\main\cs_two.h	/^	uint16_t dram_index;				 \/**< Index of the entry in the dram queue *\/$/;"	m	struct:cs_two_htbl_entry
+dram_packet_pool_chunk_addr	.\src\main\cs_two.h	/^	uint8_t *dram_packet_pool_chunk_addr; $/;"	m	struct:cs_dram_queue
+dram_queue	.\src\main\cs_two.h	/^ 	struct cs_dram_queue       *dram_queue;$/;"	m	struct:cs_two	typeref:struct:cs_two::cs_dram_queue
+dram_queue_get_insert_index	.\src\main\cs_two.c	/^uint32_t dram_queue_get_insert_index(cs_two_t *cs)$/;"	f
+dram_queue_head_index	.\src\main\cs_two.h	/^    uint32_t                    dram_queue_head_index;$/;"	m	struct:cs_two
+dram_queue_is_empty	.\src\main\cs_two.c	/^static uint8_t dram_queue_is_empty(cs_two_t *cs)$/;"	f	file:
+dram_queue_is_full	.\src\main\cs_two.c	/^static uint8_t dram_queue_is_full(cs_two_t *cs)$/;"	f	file:
+dram_queue_max_element	.\src\main\cs_two.h	/^    uint32_t                    dram_queue_max_element;$/;"	m	struct:cs_two
+dram_queue_size	.\src\main\cs_two.h	/^    uint32_t                    dram_queue_size;              $/;"	m	struct:cs_two
+dram_queue_tail_index	.\src\main\cs_two.h	/^    uint32_t                    dram_queue_tail_index;$/;"	m	struct:cs_two
+dram_queue_update_by_visit_index	.\src\main\cs_two.c	/^dram_queue_update_by_visit_index(struct cs_two *cs, uint32_t index)$/;"	f
+enabled_port_mask	.\src\main\main.c	/^static uint32_t enabled_port_mask;$/;"	v	file:
+enqueued_pkts	.\src\main\main.c	/^		uint64_t enqueued_pkts;$/;"	m	struct:app_stats::__anon1	file:
+entry	.\src\main\cs_two.h	/^	struct  cs_two_htbl_entry  entry[ENTRY_NUM_OF_ONE_BUCKET];$/;"	m	struct:cs_two_htbl_bucket	typeref:struct:cs_two_htbl_bucket::cs_two_htbl_entry
+free_bitmap	.\src\main\util.c	/^void free_bitmap(struct Bitmap_info *bitmap_info)$/;"	f
+fs_io_loop	.\src\main\writer_core.c	/^int fs_io_loop(__attribute__((unused)) void *arg)$/;"	f
+fs_path	.\src\main\init.h	/^	char *fs_path;$/;"	m	struct:app_global_config
+get_bucket_from_char_eid	.\src\main\cs_two.c	/^uint32_t get_bucket_from_char_eid(char *eid)$/;"	f
+get_nb_lcores_available	.\src\main\util.c	/^uint8_t get_nb_lcores_available(void) {$/;"	f
+get_nb_ports_available	.\src\main\util.c	/^uint8_t get_nb_ports_available(uint32_t portmask) {$/;"	f
+get_rx_queue_name	.\src\main\init.c	/^char *  get_rx_queue_name(unsigned id, unsigned flag){$/;"	f
+hash_table	.\src\main\cs_two.h	/^	struct cs_two_htbl_bucket  *hash_table;$/;"	m	struct:cs_two	typeref:struct:cs_two::cs_two_htbl_bucket
+hash_table_num_buckets	.\src\main\cs_two.h	/^ 	uint32_t 				    hash_table_num_buckets;		$/;"	m	struct:cs_two
+hex_string_2_char_array	.\src\main\util.c	/^void hex_string_2_char_array(char* dst, char* src, int srcLen){$/;"	f
+htoi	.\src\main\util.c	/^uint64_t htoi(char s[])$/;"	f
+id_dst_eid	.\src\main\seanet_packet.h	/^    char id_dst_eid[20] ;$/;"	m	struct:seanet_hdr
+id_length	.\src\main\seanet_packet.h	/^    uint8_t id_length ;$/;"	m	struct:seanet_hdr
+id_next_head_type	.\src\main\seanet_packet.h	/^    uint8_t id_next_head_type ;$/;"	m	struct:seanet_hdr
+id_seanet_prot_prop	.\src\main\seanet_packet.h	/^    uint16_t id_seanet_prot_prop;$/;"	m	struct:seanet_hdr
+id_src_eid	.\src\main\seanet_packet.h	/^    char id_src_eid[20] ;                  $/;"	m	struct:seanet_hdr
+init_app	.\src\main\init.c	/^init_app(struct app_global_config *app, struct app_lcore_params lcore[]) {$/;"	f
+init_mbuf_pools	.\src\main\init.c	/^init_mbuf_pools(struct app_global_config *app, struct app_lcore_params lcore[])$/;"	f	file:
+init_ports	.\src\main\init.c	/^init_ports( uint32_t portmask, uint8_t nb_rx_queues, uint8_t nb_tx_queues) {$/;"	f	file:
+init_queues	.\src\main\init.c	/^init_queues(uint32_t portmask, struct app_lcore_params lcore[]) {$/;"	f	file:
+init_shm_rings	.\src\main\init.c	/^init_shm_rings(struct app_lcore_params lcore[])$/;"	f	file:
+init_storage_data_structures	.\src\main\init.c	/^static void init_storage_data_structures(struct app_lcore_params lcore[]) {$/;"	f	file:
+int_dram_hit	.\src\main\init.h	/^	uint32_t int_dram_hit;  \/**< number of Interest packets served by CS DRAM *\/$/;"	m	struct:stats
+int_no_hit	.\src\main\init.h	/^	uint32_t int_no_hit;    \/**< number of Interest packets that can not be served by CS *\/$/;"	m	struct:stats
+int_recv	.\src\main\init.h	/^	uint32_t int_recv; \/**< number of Interest packets received *\/$/;"	m	struct:stats
+int_ssd_hit	.\src\main\init.h	/^	uint32_t int_ssd_hit;   \/**< number of Interest packets served by CS  SSD *\/$/;"	m	struct:stats
+io_type	.\src\main\Defaults.h	/^	uint8_t 	io_type;$/;"	m	struct:chunk_msg_desc
+io_type	.\src\main\Defaults.h	/^        uint8_t  io_type;  $/;"	m	struct:notify_desc
+is_file_exist	.\src\main\writer_core.c	/^int is_file_exist(const char *file_path)$/;"	f	file:
+lcore_conf	.\src\main\main.c	/^struct app_lcore_params lcore_conf[APP_MAX_LCORES];$/;"	v	typeref:struct:app_lcore_params
+lcore_rx_queue	.\src\main\init.h	/^struct lcore_rx_queue {$/;"	s
+len	.\src\main\sender.h	/^	unsigned len;$/;"	m	struct:mbuf_table
+lookup_cache	.\src\main\cs_two.c	/^static inline int lookup_cache(cs_two_t *cs, uint32_t bucket, char *eid, uint32_t offset)$/;"	f	file:
+lookup_path	.\src\main\writer_core.c	/^int lookup_path(char *chunk_eid, char *eid_path)$/;"	f	file:
+m_table	.\src\main\sender.h	/^	struct rte_mbuf *m_table[MAX_PKT_BURST];$/;"	m	struct:mbuf_table	typeref:struct:mbuf_table::rte_mbuf
+main	.\src\main\main.c	/^main(int argc, char *argv[])$/;"	f
+malformed	.\src\main\init.h	/^	uint32_t malformed;		\/**< number of malformed packets received *\/$/;"	m	struct:stats
+mbuf	.\src\main\Defaults.h	/^	struct rte_mbuf mbuf;$/;"	m	struct:chunk_msg_desc	typeref:struct:chunk_msg_desc::rte_mbuf
+mbuf_size	.\src\main\init.h	/^	uint32_t mbuf_size;$/;"	m	struct:app_global_config
+mbuf_table	.\src\main\sender.h	/^struct mbuf_table{$/;"	s
+mempool_cache_size	.\src\main\init.h	/^	uint32_t mempool_cache_size;$/;"	m	struct:app_global_config
+nb_chunk_read_from_ssd	.\src\main\init.h	/^	uint32_t nb_chunk_read_from_ssd;  \/**< number of segment that is read from SSD cache *\/$/;"	m	struct:stats
+nb_chunk_write_to_ssd	.\src\main\init.h	/^	uint32_t nb_chunk_write_to_ssd;   \/**< number of segment that is written to SSD cache *\/$/;"	m	struct:stats
+nb_mbuf	.\src\main\init.h	/^	uint32_t nb_mbuf;$/;"	m	struct:app_global_config
+nb_ports	.\src\main\init.h	/^	uint8_t nb_ports;$/;"	m	struct:app_lcore_params
+nb_rx_ports	.\src\main\init.h	/^	uint8_t nb_rx_ports;$/;"	m	struct:app_lcore_params
+nb_rxd	.\src\main\init.c	/^uint16_t nb_rxd = RTE_TEST_RX_DESC_DEFAULT;$/;"	v
+nb_txd	.\src\main\init.c	/^uint16_t nb_txd = RTE_TEST_TX_DESC_DEFAULT;$/;"	v
+next_index	.\src\main\cs_two.h	/^	uint32_t next_index;                     \/**< next index in dram LRU queue *\/$/;"	m	struct:cs_dram_queue
+nic_pkt_drop	.\src\main\init.h	/^	uint32_t nic_pkt_drop; \/**< number of packet dropped in the NIC due to queue overflow *\/$/;"	m	struct:stats
+notify_desc	.\src\main\Defaults.h	/^struct notify_desc{$/;"	s
+packet_num_of_one_chunk	.\src\main\cs_two.h	/^     uint16_t packet_num_of_one_chunk;	      \/\/ the total num packet of a chunk$/;"	m	struct:Bitmap_info
+parse_args	.\src\main\main.c	/^ parse_args(int argc, char **argv)$/;"	f	file:
+parse_portmask	.\src\main\main.c	/^parse_portmask(const char *portmask)$/;"	f	file:
+pktmbuf_pool	.\src\main\init.h	/^	struct rte_mempool *pktmbuf_pool;$/;"	m	struct:app_lcore_params	typeref:struct:app_lcore_params::rte_mempool
+port_conf_default	.\src\main\init.h	/^static const struct rte_eth_conf port_conf_default = {$/;"	v	typeref:struct:rte_eth_conf
+port_id	.\src\main\init.h	/^	uint8_t port_id;$/;"	m	struct:lcore_rx_queue
+portmask	.\src\main\init.h	/^	uint8_t portmask;$/;"	m	struct:app_global_config
+prev_index	.\src\main\cs_two.h	/^	uint32_t prev_index;                     \/**< previous index in dram LRU queue *\/$/;"	m	struct:cs_dram_queue
+print_stats	.\src\main\Data_plane.c	/^void print_stats(void) {$/;"	f
+print_usage	.\src\main\main.c	/^print_usage(const char *prgname)$/;"	f	file:
+push_chunk_to_other_core	.\src\main\cs_two.c	/^static inline void push_chunk_to_other_core(struct rte_mempool *shm_message_pool, struct rte_ring *shm_ring_queue,$/;"	f	file:
+queue_id	.\src\main\init.h	/^	uint8_t queue_id;$/;"	m	struct:lcore_rx_queue
+quit_signal	.\src\main\main.c	/^volatile uint8_t quit_signal;$/;"	v
+quit_signal_rx	.\src\main\main.c	/^volatile uint8_t quit_signal_rx;$/;"	v
+recv_ring	.\src\main\init.h	/^	struct rte_ring *recv_ring;$/;"	m	struct:app_lcore_params	typeref:struct:app_lcore_params::rte_ring
+reg_portid	.\src\main\sender.c	10;"	d	file:
+req_cnt	.\src\main\cs_two.h	/^	uint8_t  req_cnt;                       \/**< request count of this chunk *\/$/;"	m	struct:cs_dram_queue
+reset_bitmap	.\src\main\util.c	/^int reset_bitmap(struct Bitmap_info *bitmap_info)$/;"	f
+reset_stats	.\src\main\Data_plane.c	/^void reset_stats(void) {$/;"	f
+returned_pkts	.\src\main\main.c	/^		uint64_t returned_pkts;$/;"	m	struct:app_stats::__anon1	file:
+rte_pktmbuf_mtod	.\src\main\sender.c	6;"	d	file:
+rx_burst_size	.\src\main\init.h	/^	uint16_t rx_burst_size;$/;"	m	struct:app_global_config
+rx_conf	.\src\main\init.h	/^static const struct rte_eth_rxconf rx_conf = {$/;"	v	typeref:struct:rte_eth_rxconf
+rx_pkts	.\src\main\main.c	/^		uint64_t rx_pkts;$/;"	m	struct:app_stats::__anon1	file:
+rx_queue	.\src\main\init.h	/^    struct lcore_rx_queue rx_queue[APP_MAX_ETH_PORTS]; \/\/ 10$/;"	m	struct:app_lcore_params	typeref:struct:app_lcore_params::lcore_rx_queue
+seadp_cache_type	.\src\main\seanet_packet.h	/^    uint8_t seadp_cache_type ;$/;"	m	struct:seadp_hdr
+seadp_checksum	.\src\main\seanet_packet.h	/^    uint16_t seadp_checksum ;$/;"	m	struct:seadp_hdr
+seadp_chunk_total_len	.\src\main\seanet_packet.h	/^    uint32_t seadp_chunk_total_len ;$/;"	m	struct:seadp_hdr
+seadp_dst_port	.\src\main\seanet_packet.h	/^    uint16_t seadp_dst_port ;$/;"	m	struct:seadp_hdr
+seadp_hdr	.\src\main\seanet_packet.h	/^struct seadp_hdr{ $/;"	s
+seadp_packet_offset	.\src\main\seanet_packet.h	/^    uint32_t seadp_packet_offset ;$/;"	m	struct:seadp_hdr
+seadp_packet_order	.\src\main\seanet_packet.h	/^    uint16_t seadp_packet_order ;$/;"	m	struct:seadp_hdr
+seadp_packet_type	.\src\main\seanet_packet.h	/^    uint8_t seadp_packet_type ;$/;"	m	struct:seadp_hdr
+seadp_src_port	.\src\main\seanet_packet.h	/^    uint16_t seadp_src_port ;$/;"	m	struct:seadp_hdr
+seadp_tran_type_res	.\src\main\seanet_packet.h	/^    uint16_t seadp_tran_type_res ;\/\/unsigned short tflag:4,reserve:12;$/;"	m	struct:seadp_hdr
+seanet_hdr	.\src\main\seanet_packet.h	/^struct seanet_hdr{$/;"	s
+seanet_packet_process_loop	.\src\main\Data_plane.c	/^int seanet_packet_process_loop(__attribute__((unused)) void *arg) {$/;"	f
+send_expired	.\src\main\sender.c	/^int send_expired(struct mbuf_table *tx_mbuf, uint8_t port, uint16_t queue_id)$/;"	f
+send_packet	.\src\main\sender.c	/^int send_packet(struct rte_mbuf *m, struct mbuf_table *tx_mbuf, uint8_t port, uint16_t queue_id)$/;"	f
+send_ring	.\src\main\init.h	/^	struct rte_ring *send_ring;$/;"	m	struct:app_lcore_params	typeref:struct:app_lcore_params::rte_ring
+set_bitmap_from_offset	.\src\main\util.c	/^int set_bitmap_from_offset(int set_num, uint32_t offset, struct Bitmap_info *bitmap_info)$/;"	f
+shm_message_pool	.\src\main\init.h	/^	struct rte_mempool *shm_message_pool;$/;"	m	struct:app_lcore_params	typeref:struct:app_lcore_params::rte_mempool
+signal_handler	.\src\main\main.c	/^signal_handler(int sig_num)$/;"	f	file:
+start_ports	.\src\main\init.c	/^start_ports(uint32_t portmask, uint8_t promisc_mode) {$/;"	f	file:
+stats	.\src\main\init.h	/^	struct stats stats;$/;"	m	struct:app_lcore_params	typeref:struct:app_lcore_params::stats
+stats	.\src\main\init.h	/^struct stats {$/;"	s
+sw_pkt_drop	.\src\main\init.h	/^	uint32_t sw_pkt_drop;	\/**< number of packet dropped by SW data strucutre overflow *\/$/;"	m	struct:stats
+tab	.\src\main\cs_two.h	/^	uint8_t  tab;					          \/**< offset in the bucket *\/$/;"	m	struct:cs_dram_queue
+tem_chunk_len	.\src\main\cs_two.h	/^	uint16_t tem_chunk_len;					   \/*the num of received packet*\/ $/;"	m	struct:chunk_assemble_info
+total_cpu_cycle	.\src\main\init.h	/^	uint64_t total_cpu_cycle;     \/**< count cpu cycle of one metric *\/$/;"	m	struct:stats
+total_number	.\src\main\init.h	/^	uint64_t total_number;        \/**< total pkt number of test        *\/$/;"	m	struct:stats
+tx_burst_size	.\src\main\init.h	/^	uint16_t tx_burst_size;$/;"	m	struct:app_global_config
+tx_conf	.\src\main\init.h	/^static const struct rte_eth_txconf tx_conf = {$/;"	v	typeref:struct:rte_eth_txconf
+tx_pkts	.\src\main\main.c	/^		uint64_t tx_pkts;$/;"	m	struct:app_stats::__anon2	file:
+tx_process_loop	.\src\main\tx_action.c	/^int tx_process_loop(__attribute__((unused)) void *arg)$/;"	f
+tx_queue_id	.\src\main\init.h	/^	uint16_t tx_queue_id[APP_MAX_ETH_PORTS];    \/\/ 10$/;"	m	struct:app_lcore_params
+worker_id	.\src\main\init.h	/^	unsigned worker_id;$/;"	m	struct:app_lcore_params

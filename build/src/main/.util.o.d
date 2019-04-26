@@ -1,5 +1,4 @@
-util.o: \
- /home/dsp/dpdk-2.0.0/examples/seanet_cache_system_v3.1/src/main/util.c \
+util.o: /home/myshare/seanet_cache_system_v3.2_zicco/src/main/util.c \
  /usr/include/stdc-predef.h \
  /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/rte_config.h \
  /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stddef.h \
@@ -91,6 +90,6 @@ util.o: \
  /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
  /usr/include/asm-generic/socket.h /usr/include/asm/sockios.h \
  /usr/include/asm-generic/sockios.h /usr/include/bits/in.h \
- /home/dsp/dpdk-2.0.0/examples/seanet_cache_system_v3.1/src/main/util.h \
- /home/dsp/dpdk-2.0.0/examples/seanet_cache_system_v3.1/src/main/Defaults.h \
- /home/dsp/dpdk-2.0.0/examples/seanet_cache_system_v3.1/src/main/cs_two.h
+ /home/myshare/seanet_cache_system_v3.2_zicco/src/main/util.h \
+ /home/myshare/seanet_cache_system_v3.2_zicco/src/main/Defaults.h \
+ /home/myshare/seanet_cache_system_v3.2_zicco/src/main/cs_two.h

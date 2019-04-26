@@ -1,5 +1,5 @@
-writer_core.o: \
- /home/myshare/seanet_cache_system_v3.2_zicco/src/main/writer_core.c \
+tx_action.o: \
+ /home/myshare/seanet_cache_system_v3.2_zicco/src/main/tx_action.c \
  /usr/include/stdc-predef.h \
  /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/rte_config.h \
  /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/rte_ring.h \
@@ -55,18 +55,16 @@ writer_core.o: \
  /usr/include/unistd.h /usr/include/bits/posix_opt.h \
  /usr/include/bits/environments.h /usr/include/bits/confname.h \
  /usr/include/getopt.h /usr/include/string.h /usr/include/bits/string.h \
- /usr/include/bits/string2.h \
- /home/myshare/seanet_cache_system_v3.2_zicco/src/main/writer_core.h \
- /home/myshare/seanet_cache_system_v3.2_zicco/src/main/Defaults.h \
+ /usr/include/bits/string2.h /usr/include/sys/time.h \
+ /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/rte_ethdev.h \
+ /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/rte_interrupts.h \
+ /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/exec-env/rte_interrupts.h \
+ /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/rte_pci.h \
+ /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/rte_dev.h \
+ /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/rte_devargs.h \
  /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/rte_mbuf.h \
  /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/rte_prefetch.h \
  /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/generic/rte_prefetch.h \
- /home/myshare/seanet_cache_system_v3.2_zicco/src/main/init.h \
- /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/rte_byteorder.h \
- /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/generic/rte_byteorder.h \
- /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/rte_byteorder_64.h \
- /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/rte_cycles.h \
- /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/generic/rte_cycles.h \
  /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/rte_ether.h \
  /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/rte_memcpy.h \
  /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/rte_vect.h \
@@ -85,14 +83,11 @@ writer_core.o: \
  /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/xsaveoptintrin.h \
  /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/adxintrin.h \
  /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/rte_random.h \
- /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/rte_ethdev.h \
- /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/rte_interrupts.h \
- /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/exec-env/rte_interrupts.h \
- /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/rte_pci.h \
- /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/rte_dev.h \
- /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/rte_devargs.h \
- /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/rte_ether.h \
+ /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/rte_byteorder.h \
+ /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/generic/rte_byteorder.h \
+ /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/rte_byteorder_64.h \
  /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/rte_eth_ctrl.h \
+ /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/rte_ether.h \
  /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/rte_ip.h \
  /usr/include/netinet/in.h /usr/include/sys/socket.h \
  /usr/include/sys/uio.h /usr/include/bits/uio.h \
@@ -100,7 +95,18 @@ writer_core.o: \
  /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
  /usr/include/asm-generic/socket.h /usr/include/asm/sockios.h \
  /usr/include/asm-generic/sockios.h /usr/include/bits/in.h \
+ /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/rte_malloc.h \
+ /home/myshare/seanet_cache_system_v3.2_zicco/src/main/sender.h \
+ /home/myshare/seanet_cache_system_v3.2_zicco/src/main/Defaults.h \
+ /home/myshare/seanet_cache_system_v3.2_zicco/src/main/tx_action.h \
+ /home/myshare/seanet_cache_system_v3.2_zicco/src/main/init.h \
+ /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/rte_cycles.h \
+ /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/generic/rte_cycles.h \
  /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/rte_hash_crc.h \
  /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/rte_cpuflags.h \
  /home/dsp/dpdk-2.0.0/x86_64-native-linuxapp-gcc/include/generic/rte_cpuflags.h \
- /home/myshare/seanet_cache_system_v3.2_zicco/src/main/cs_two.h
+ /home/myshare/seanet_cache_system_v3.2_zicco/src/main/cs_two.h \
+ /home/myshare/seanet_cache_system_v3.2_zicco/src/main/seanet_packet.h \
+ /home/myshare/seanet_cache_system_v3.2_zicco/src/main/util.h \
+ /usr/include/arpa/inet.h \
+ /home/myshare/seanet_cache_system_v3.2_zicco/src/main/util.h
